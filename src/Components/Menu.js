@@ -15,7 +15,6 @@ const Menu = (props) => {
 
             {/* <!-- Divider --> */}
             <hr className="sidebar-divider my-0" />
-
             {/* <!-- Nav Item - Dashboard --> */}
             <li className="nav-item active">
                 <a className="nav-link" onClick={() => { props.onHandelSetTypeMeNu(typeMenu.MENUTINHLICHTRUC) }} href="#">
@@ -27,9 +26,9 @@ const Menu = (props) => {
             <hr className="sidebar-divider" />
 
             <li className="nav-item active">
-                <a className="nav-link" onClick={() => { props.onHandelSetTypeMeNu(typeMenu.MENUXEMDSNHANVIEN) }} href="#">
+                <a className="nav-link" onClick={() => { props.onHandelSetTypeMeNu(typeMenu.MENUNHANVIEN) }} href="#">
                     <i className="fas fa-user-friends"></i>
-                    <span>Xem danh sách nhân viên</span></a>
+                    <span>Nhân viên</span></a>
             </li>
         </ul>
     )

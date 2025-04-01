@@ -4,13 +4,14 @@ import Menu from "../Components/Menu"
 import * as tyepMenu from "../constant/index"
 import ToolTinhLichTruc from "../Components/TinhLichTruc/ToolTinhLichTruc"
 import ToolXemDSNhanVien from "../Components/XemNhanVien/ToolXemDSNhanVien";
+import ToolNhanVien from "../Components/XemNhanVien/ToolNhanVien";
 const TrangChu = (props) => {
     var elementContent = () => {
         if (props.menu === tyepMenu.MENUTINHLICHTRUC) {
             return (<ToolTinhLichTruc />)
         }
-        else if (props.menu === tyepMenu.MENUXEMDSNHANVIEN) {
-            return (<ToolXemDSNhanVien />)
+        else if (props.menu === tyepMenu.MENUNHANVIEN) {
+            return (<ToolNhanVien />)
         }
         else {
             return (<ToolTinhLichTruc />)

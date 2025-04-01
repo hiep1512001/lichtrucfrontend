@@ -16,7 +16,7 @@ const BangLichTruc = (props) => {
         // Tạo liên kết và kích hoạt tải xuống
         const link = document.createElement('a');
         link.href = URL.createObjectURL(converted);
-        link.download = 'component.docx'; // Tên file tải về
+        link.download = 'Lịch trực tháng.docx'; // Tên file tải về
         link.click();
     };
     var ngayTruc = props.arrNgayTrucs

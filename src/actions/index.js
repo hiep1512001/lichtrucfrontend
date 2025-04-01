@@ -21,3 +21,15 @@ export const setTypeMenu = (typeMenu) => {
         type: type.SETYPEPMENU,
     };
 }
+export const setDSNhanVien = (arr) => {
+    return {
+        type: type.SETDSNHANVIEN,
+        arr: arr
+    }
+}
+export const setShowTool = (value) => {
+    return {
+        type: type.SETSHOWTOOL,
+        value: value
+    }
+}
